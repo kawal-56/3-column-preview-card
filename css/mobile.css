@@ -1,0 +1,117 @@
+@media only screen and (max-width: 374px) {
+    body {
+        font-size: 9.5px;
+    }
+
+    .columns h1 {
+        margin: 8px 0;
+        font-size: 20px;
+    }
+
+    .columns p {
+        margin-bottom: 18px;
+        line-height: 1.2;
+    }
+
+    .columns {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+
+    .columns .col {
+        height: 27vh;
+        width: 50vw;
+        padding: 18px;
+        overflow: hidden;
+    }
+    
+    img {
+        height: 18px;
+        font-weight: 20px;
+    }
+
+    .columns .first-column {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .columns .third-column {
+        border-radius: 0 0 5px 5px;
+    }
+    
+    .columns a {
+        font-size: 7px;
+        padding: 5px 8px;
+    } 
+}
+
+@media(min-width: 375px) and (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+
+    .columns h1 {
+        margin: 10px 0;
+    }
+
+    .columns p {
+        margin-bottom: 22px;
+    }
+
+    .columns {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+
+    .columns .col {
+        height: 29vh;
+        width: 50vw;
+        padding: 20px;
+        overflow: hidden;
+    }
+
+    img {
+        height: 20px;
+        width: 30px;
+    }
+
+    .columns .first-column {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .columns .third-column {
+        border-radius: 0 0 5px 5px;
+    }
+    
+    .columns a {
+        font-size: 7.5px;
+        padding: 5px 8px;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 1200px) {
+    body {
+        font-size: 13px;
+    }
+
+    .columns h1 {
+        margin: 14px 0;
+    }
+
+    .columns p {
+        margin-bottom: 45px;
+        font-size: 8.5px;
+        line-height: 1.5;
+    }
+
+    .columns .col {
+        padding: 22px;
+        overflow: hidden;
+    }
+
+    .columns a {
+        font-size: 8px;
+        padding: 6px 10px;
+    }
+}

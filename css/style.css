@@ -1,0 +1,112 @@
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);      /* (paragraphs) */
+    --Very-light-gray: hsl(0, 0%, 95%);     /*  (background, headings, buttons) */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    background: var(--Very-light-gray);
+}
+
+.columns h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: var(--Very-light-gray);
+    margin: 16px 0;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.columns p {
+    color: var(--Transparent-white);
+    margin-bottom: 55px;
+    font-size: 9.1px;
+    line-height: 1.7;
+}
+
+#container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.columns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 90vh;
+    width: 100vw;
+}
+
+.columns .col {
+    height: 47vh;
+    width: 14vw;
+    padding: 32px;
+    overflow: hidden;
+}
+
+img {
+    height: 25px;
+    width: 40px;
+}
+
+.columns .first-column {
+    background: var(--Bright-orange);
+    border-radius: 5px 0 0 5px;
+}
+
+.columns .second-column {
+    background: var(--Dark-cyan);
+}
+
+.columns .third-column {
+    background: var(--Very-dark-cyan);
+    border-radius: 0 5px 5px 0;
+}
+
+.columns a {
+    text-decoration: none;
+    background: var(--Very-light-gray);
+    padding: 9px 17px;
+    font-size: 9.5px;
+    font-weight: 550;
+    border-radius: 70px;
+}
+
+.columns .first-column a {
+    color: var(--Bright-orange);
+}
+
+.columns .second-column a {
+    color: var(--Dark-cyan);
+}
+
+.columns .third-column a {
+    color: var(--Very-dark-cyan);
+}
+
+.col a:hover {
+    color: var(--Very-light-gray);
+    border: 2px solid var(--Very-light-gray);
+}
+
+.first-column a:hover {
+    background: var(--Bright-orange);
+}
+
+.second-column a:hover {
+    background: var(--Dark-cyan);
+}
+
+.third-column a:hover {
+    background: var(--Very-dark-cyan);
+}
